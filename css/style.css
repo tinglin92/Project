@@ -5,3 +5,16 @@
 	margin-bottom: 0px;              /*by default there is a 30px margin that pushes down the content below*/
 }
 
+
+#featuredMovie {
+	min-height: 400px;
+}
+
+.margin {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.buyticket {
+	width: 100%;
+}
