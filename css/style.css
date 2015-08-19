@@ -1,13 +1,32 @@
 .jumbotron {
 	background-image: url('../img/jumbotron-bg.png');
 	background-attachment: fixed;    /*makes the bg fixed with regard to the viewport*/
-	min-height: 500px;               /*makes it large enough*/
-	margin-bottom: 0px;              /*by default there is a 30px margin that pushes down the content below*/
+	min-height: 500px;                   /*makes it large enough*/
+	margin-bottom: 0px;                  /*by default there is a 30px margin that pushes down the content below*/
+	box-shadow: 2px 2px 2px 2px #D8CCCC;
+
+}
+
+.navbar-static-top {
+	box-shadow: 2px 2px 2px rgba(170, 175, 174, 0.52);
+}
+
+body {
+	background-image: url('../img/seamless_paper_texture.png');
+	background-attachment: fixed;                      /*makes the bg fixed with regard to the viewport*/
 }
 
 
 #featuredMovie {
 	min-height: 400px;
+}
+
+.btn {
+	box-shadow: 2px 2px 2px rgba(170, 175, 174, 0.52);
+}
+
+.img-thumbnail {
+	box-shadow: 2px 2px 2px rgba(170, 175, 174, 0.52);
 }
 
 .margin {
@@ -17,6 +36,10 @@
 
 .buyticket {
 	width: 100%;
+}
+
+.form-control {
+	box-shadow: 2px 2px 2px rgba(170, 175, 174, 0.52);
 }
 
 footer {
