@@ -1,0 +1,7 @@
+.jumbotron {
+	background-image: url('../img/jumbotron-bg.png');
+	background-attachment: fixed;    /*makes the bg fixed with regard to the viewport*/
+	min-height: 500px;               /*makes it large enough*/
+	margin-bottom: 0px;              /*by default there is a 30px margin that pushes down the content below*/
+}
+
