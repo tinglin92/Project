@@ -1,0 +1,13 @@
+/* 
+* @Author: Chenyu
+* @Date:   2015-09-05 11:19:24
+* @Last Modified by:   Chenyu
+* @Last Modified time: 2015-09-05 11:28:45
+*/
+img {
+
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
