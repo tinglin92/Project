@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Platinum Village</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	
+<!-- 	navigation bar
+ -->	<div class="navbar-static-top" id="navigationbar">
+			<div class="container">                                       
+				<div class="navbar-brand">                   
+					Platinum Village
+				</div>
+				
+				<!-- the button will replace the navigation bar on a smaller screen -->
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">         
+					Menu
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">  <!-- (makes the nav collapsiable and navHeaderCollapse serves like an id) -->
+					<ul class="nav navbar-nav navbar-right">              <!-- (takes care of padding, horizontal layout, and stick it to the right) -->
+						<li><a href="#navigationbar">Home</a></li>
+						<li><a href="#featured">Featured</a></li>
+						<li><a href="#showtime">Showtime</a></li>
+						<li><a href="#Tickets">Tickets</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Platinum Village</h1>
+			<p>Your personalised movie theatre</p>
+			<p><a href="To the showtime" class="btn btn-primary btn-lg">Showtime</a></p>
+		</div>
+	</div>
+
+	<div class="container" id="featured">
+		<div class="row">
+			<h1>Featured</h1>
+			<div class="col-md-3">
+				<h3 class="text-center">Movie 1</h3>
+				<img src="img/test.jpg" class="img-responsive img-thumbnail" alt="Featured Movie">
+				<a href="#" class="btn btn-default margin buyticket">Buy tickets</a>
+			</div>
+			<div class="col-md-3">
+				<h3 class="text-center">Movie 2</h3>
+				<img src="img/test.jpg" class="img-responsive img-thumbnail" alt="Featured Movie">
+				<a href="#" class="btn btn-default margin buyticket">Buy tickets</a>
+			</div>
+			<div class="col-md-3">
+				<h3 class="text-center">Movie 3</h3>
+				<img src="img/test.jpg" class="img-responsive img-thumbnail" alt="Featured Movie">
+				<a href="#" class="btn btn-default margin buyticket">Buy tickets</a>
+			</div>
+			<div class="col-md-3">
+				<h3 class="text-center">Movie 4</h3>
+				<img src="img/test.jpg" class="img-responsive img-thumbnail" alt="Featured Movie">
+				<a href="#" class="btn btn-default margin buyticket">Buy tickets</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="showtime">
+		<h1>Showtime</h1>
+		<p>This section will contain showtime information</p>
+	</div>
+
+	<div class="container" id="Tickets">
+		<h2>Buy Tickets</h2>
+		<form>
+			<div class="form-group">
+			<label for="movie">Movie:</label>
+			<select class="form-control">
+				<option>Select your movie</option>
+				<option>Movie 1</option>
+				<option>Movie 2</option>
+				<option>Movie 3</option>
+				<option>Movie 4</option>
+				<option>Movie 5</option>
+			</select>	
+			</div>
+			
+			<div class="form-group">
+				<label for="showtime">Showtime:</label>
+				<select class="form-control">
+					<option>Select your showtime</option>
+					<option>Time 1</option>
+					<option>Time 2</option>
+					<option>Time 3</option>
+					<option>Time 4</option>
+					<option>Time 5</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" name="email" placeholder="example@email.com">
+			</div>
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="name" class="form-control" id="name" name="name" placeholder="Your name">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>	
+	</div>
+
+
+	<div class="container">
+		<footer>
+			All rights reserved by <em>Platinum Village&copy;</em>
+			<br>
+			<em>Brought to you by Chenyu and Shicong</em>
+			<br>
+			<a href="#navigationbar">Back to Top</a>
+		</footer>
+	</div>
+
+
+
+</body>
+
+    <script type="text/javascript" src="js/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/logic.js"></script>
+<!--   //  
+		// $(function() {
+		// $('a[href*=#]:not([href=#])').click(function() {
+		// if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		// var target = $(this.hash);
+		// target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		// if (target.length) {
+		// $('html,body').animate({
+		// scrollTop: target.offset().top
+		// }, 1000);
+		// return false;
+		// }
+		// }
+		// });
+		// });
+  //   --> 
+</html>

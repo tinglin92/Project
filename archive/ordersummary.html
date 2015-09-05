@@ -10,7 +10,7 @@
 
         <div class="container" id="Tickets">
         <h2>Buy Tickets</h2>
-        <form>
+        <form class="col-md-6">
             <div class="form-group">
             <label for="movie">Movie:</label>
             <select class="form-control" ng-model="selected_movie">
@@ -45,12 +45,16 @@
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
         </form> 
+
+        <div class="col-md-6">
+            <h2>Movie name: {{selected_movie}}</h2>
+            <h2>Your time slot: {{selected_time}}</h2>
+            <h2>Your email: {{email}}</h2>
+            <h2>Your Name: {{name}}</h2>
+        </div>
     </div>
     	
-    	<h2>Movie name: {{selected_movie}}</h2>
-        <h2>Your time slot: {{selected_time}}</h2>
-        <h2>Your email: {{email}}</h2>
-        <h2>Your Name: {{name}}</h2>
+    	
 
     </body>
 </html>
