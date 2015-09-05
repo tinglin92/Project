@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-01 15:43:01
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-05 11:05:09
+* @Last Modified time: 2015-09-05 11:55:30
 */
 
 
@@ -13,7 +13,7 @@ nav {
 	font-family: 'Roboto', sans-serif;
 }
 
-ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,8 +21,7 @@ ul {
 }
 
 
-
-li {
+nav > ul > li {
     margin-top: 8px;
     float: right;
 }

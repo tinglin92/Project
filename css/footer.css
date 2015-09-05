@@ -1,0 +1,23 @@
+/* 
+* @Author: Chenyu
+* @Date:   2015-09-05 11:47:27
+* @Last Modified by:   Chenyu
+* @Last Modified time: 2015-09-05 12:10:50
+*/
+footer {
+	text-align: center;
+}
+
+footer > ul {
+	display: inline-block;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+footer > ul > li {
+	float: left;
+}
+
+footer > p {
+	margin-top: 0px;
+}

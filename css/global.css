@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-01 15:10:19
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-05 11:23:51
+* @Last Modified time: 2015-09-05 11:37:51
 */
 .container {
 	width: 90%;
@@ -10,8 +10,8 @@
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .row {
 	margin-right: -15px;
