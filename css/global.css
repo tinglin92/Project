@@ -2,8 +2,13 @@
 * @Author: Chenyu
 * @Date:   2015-09-01 15:10:19
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-05 11:37:51
+* @Last Modified time: 2015-09-05 14:22:33
 */
+
+body {
+	background-image: url('../img/upfeathers.png');
+}
+
 .container {
 	width: 90%;
 	padding-right: 15px;
