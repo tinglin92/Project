@@ -42,3 +42,7 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #7A991A;
 }
+
+p > .breadcrumb{
+    display: inline;
+}

@@ -24,3 +24,12 @@ img {
     margin-top: 30px;
     font-size: 2em;
 }
+.ratebutton{
+    width: 80px;
+    height: 40px;
+    font-size: 1em;
+}
+#rating{
+    display: block;
+    margin:auto;
+}
