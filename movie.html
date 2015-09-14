@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/global.css">
-		<link rel="stylesheet" type="text/css" href="css/mainContent.css">
+		<link rel="stylesheet" type="text/css" href="css/movie.css">
 		<link rel="stylesheet" type="text/css" href="css/nav.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 	</head>
@@ -18,9 +18,21 @@
 			</nav>
 		</header>
 
-		<div class="container" id="jumbotron">	
-				<img src="http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/01/digital-movie-theater.jpg" alt="">
+		<div class="container">
+			<div class="col-4" id="search_bar">
+				<form id="filter_and_search">
+					<select>
+						<option value="default">Filter by genre</option>
+						<option value="romantic">romantic</option>
+						<option value="sci-fi">Sci-Fi</option>
+						<option value="comedy">Comedy</option>
+					</select>
+					<input type="search" name="search">
+				</form>
+			</div>
 		</div>
+
+		<br>
 		
 		<div class="container" id="main">
 			<div class="movie_container">
@@ -37,19 +49,17 @@
 				<div class="col-3"><img src="http://placehold.it/270x400" alt="Movie1"></div>
 			</div>
 		</div>
-
 		<footer class="container">
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">FAQs</a></li>
-				</ul>
-				
-				<br>
-
-				<p>
-					<i>All rights reserved by Lin Shicong&copy<i>
-				</p>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">FAQs</a></li>
+			</ul>
+			
+			<br>
+			<p>
+				<i>All rights reserved by Lin Shicong&copy<i>
+			</p>
 			
 		</footer>
 	</body>
