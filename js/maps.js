@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-13 18:39:24
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-13 19:39:42
+* @Last Modified time: 2015-09-18 14:12:46
 */
 
 'use strict';
@@ -76,6 +76,6 @@
 //attach the maps when the DOM finishes loading
     google.maps.event.addDomListener(window, 'load', initializeMap1);
     google.maps.event.addDomListener(window, 'load', initializeMap2);
-	google.maps.event.addDomListener(window, 'load', initializeMap3);
+	 google.maps.event.addDomListener(window, 'load', initializeMap3);
 
   

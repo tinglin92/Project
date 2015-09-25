@@ -2,13 +2,18 @@
 * @Author: Chenyu
 * @Date:   2015-09-14 11:46:34
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-14 11:50:24
+* @Last Modified time: 2015-09-18 14:08:49
 */
 img {
 	display: block;
 	max-width: 90%;
 	height: auto;
 	margin: auto;
+}
+
+.poster {
+	height: 400px;
+	width: 270px;
 }
 
 .movie_container {

@@ -2,10 +2,12 @@
 * @Author: Chenyu
 * @Date:   2015-09-01 15:10:19
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-08 14:17:12
+* @Last Modified time: 2015-09-25 13:34:07
 */
 
-
+body { 
+	background-image: url("../img/paisley.png");
+}
 
 .container {
 	width: 90%;
@@ -22,7 +24,11 @@
 	max-width: 100%;
 }
 
-
+.canvas {
+	background-color: white;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	margin-bottom: 2%;
+}
 
 img{
     height: 400px;
