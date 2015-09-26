@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/nav.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		<link rel="stylesheet" type="text/css" href="css/mainContent.css">
+		<link rel="stylesheet" type="text/css" href="css/buyticket.css">
 	</head>
 	<body>
 		<header class="container">
@@ -105,7 +106,83 @@
                         
                         <div name="seating">
                             <h2>Select Seat</h2>
-                            <img src="img/seating%20example.png"/>
+                            <div class="container">
+			<svg>
+				<rect id="R1C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C6" class="available" onclick="selected(this.id)" />
+			</svg>
+			<br>
+			<svg>
+				<rect id="R2C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C6" class="available" onclick="selected(this.id)" />
+			</svg>
+			<br>
+			<svg>
+				<rect id="R3C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C6" class="available" onclick="selected(this.id)" />
+			</svg>
+			<br>
+			<svg>
+				<rect id="R4C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C6" class="available" onclick="selected(this.id)" />
+			</svg>
+		</div>
                         </div>
                         
                         
@@ -130,5 +207,5 @@
 		</footer>
 	</body>
 	
-	
+	<script type="text/javascript" src="js/seats.js"></script>
 </html>

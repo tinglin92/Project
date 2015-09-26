@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<style type="text/css">
+			
+			svg { 
+				width: 25px;
+				height: 25px;
+			}
+			
+			rect {
+				width: 20px;
+				height: 20px;
+				rx: 5px;
+				ry: 5px;
+
+			}
+
+			rect.available { 
+				fill: #00FF99;
+			}
+
+			rect.unavailable { 
+				fill: black;
+			}
+
+			rect.booked {
+				fill:#FFCC00;
+			}
+
+			rect:hover {
+				fill: #33CC33;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<svg>
+				<rect id="R1C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R1C6" class="available" onclick="selected(this.id)" />
+			</svg>
+			<br>
+			<svg>
+				<rect id="R2C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R2C6" class="available" onclick="selected(this.id)" />
+			</svg>
+			<br>
+			<svg>
+				<rect id="R3C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R3C6" class="available" onclick="selected(this.id)" />
+			</svg>
+			<br>
+			<svg>
+				<rect id="R4C1" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C2" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C3" class="available" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C4" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C5" class="unavailable" onclick="selected(this.id)" />
+			</svg>
+			<svg>
+				<rect id="R4C6" class="available" onclick="selected(this.id)" />
+			</svg>
+	
+		</div>
+	</body>
+
+	<script type="text/javascript" src="js/seats.js"></script>
+</html>

@@ -1,0 +1,28 @@
+/* 
+* @Author: Chenyu
+* @Date:   2015-09-26 12:52:56
+* @Last Modified by:   Chenyu
+* @Last Modified time: 2015-09-26 12:53:06
+*/
+svg {
+	width: 25px;
+	height: 25px;
+}
+rect {
+	width: 20px;
+	height: 20px;
+	rx: 5px;
+	ry: 5px;
+}
+rect.available {
+	fill: #00FF99;
+}
+rect.unavailable {
+	fill: black;
+}
+rect.booked {
+	fill: #FFCC00;
+}
+rect:hover {
+	fill: #33CC33;
+}
