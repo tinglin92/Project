@@ -26,3 +26,15 @@ rect.booked {
 rect:hover {
 	fill: #33CC33;
 }
+
+/* styling for the canvas*/
+#booking_form{
+    padding: 20px;
+}
+
+.buy_left_col{
+    margin-right: 30px;
+}
+.buy_poster{
+    padding-top: 20px;
+}

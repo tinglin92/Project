@@ -58,7 +58,10 @@ td:nth-of-type(odd){
 }
 #moviename{
 font-family:  "Arial Black", Gadget, sans-serif;
+    padding-bottom: 40px;
 }
+
+/*styling for rating*/
 .rating{
     height: 40px;
     width: auto;
@@ -71,3 +74,4 @@ font-family:  "Arial Black", Gadget, sans-serif;
     padding-left: 10px;
     padding-right: 10px;
 }
+
