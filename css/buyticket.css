@@ -2,27 +2,52 @@
 * @Author: Chenyu
 * @Date:   2015-09-26 12:52:56
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-26 12:53:06
+* @Last Modified time: 2015-09-26 14:31:53
 */
 svg {
 	width: 25px;
 	height: 25px;
 }
+
 rect {
 	width: 20px;
 	height: 20px;
 	rx: 5px;
 	ry: 5px;
 }
+
 rect.available {
 	fill: #00FF99;
 }
+
 rect.unavailable {
-	fill: black;
+	fill: #CC0000;
 }
+
 rect.booked {
-	fill: #FFCC00;
+	fill: #FFCC80;
 }
-rect:hover {
+
+
+/*different colors for different booking status of the chosen seat*/
+rect.available:hover {
 	fill: #33CC33;
+}
+
+rect.booked:hover {
+	fill: #FF6300;
+}
+
+rect.unavailable:hover {
+	fill: #800000;
+}
+
+#screen {
+	width: 165px;
+	height: 20px;
+}
+
+#screen_rect {
+	height: 20px;
+	fill: orange;
 }

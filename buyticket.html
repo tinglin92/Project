@@ -22,20 +22,20 @@
 		<div class="container" id="main">
 			<div class="movie_container">
 				<div class="col-3"><img src="img/avengers.jpg" alt="Movie1">
-				<h2 align="center" id="moviename">Avengers</h2>
+					<h2 align="center" id="moviename">Avengers</h2>
 				</div>
 				<div class="col-9">
 					
-                    <p align="right">
-                        <a class="breadcrumb" href="movies.html">All Movies</a> 
-                        > 
-                        <a class="breadcrumb" href="#">Sci-Fi </a> 
-                        > 
-                        <a class="breadcrumb" href="moviedetail.html">Avengers</a> 
-                        > 
-                        <a class="breadcrumb" href="buyticket.html">Booking</a>
-                    </p>
-                    
+					<p align="right">
+						<a class="breadcrumb" href="movies.html">All Movies</a>
+						>
+						<a class="breadcrumb" href="#">Sci-Fi </a>
+						>
+						<a class="breadcrumb" href="moviedetail.html">Avengers</a>
+						>
+						<a class="breadcrumb" href="buyticket.html">Booking</a>
+					</p>
+					
 					<h2>Details</h2>
 					<table>
 						<tr>
@@ -103,89 +103,96 @@
 							<option value="4">time4</option>
 							<option value="5">time5</option>
 						</select><br><br>
-                        
-                        <div name="seating">
-                            <h2>Select Seat</h2>
-                            <div class="container">
-			<svg>
-				<rect id="R1C1" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R1C2" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R1C3" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R1C4" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R1C5" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R1C6" class="available" onclick="selected(this.id)" />
-			</svg>
-			<br>
-			<svg>
-				<rect id="R2C1" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R2C2" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R2C3" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R2C4" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R2C5" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R2C6" class="available" onclick="selected(this.id)" />
-			</svg>
-			<br>
-			<svg>
-				<rect id="R3C1" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R3C2" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R3C3" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R3C4" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R3C5" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R3C6" class="available" onclick="selected(this.id)" />
-			</svg>
-			<br>
-			<svg>
-				<rect id="R4C1" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R4C2" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R4C3" class="available" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R4C4" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R4C5" class="unavailable" onclick="selected(this.id)" />
-			</svg>
-			<svg>
-				<rect id="R4C6" class="available" onclick="selected(this.id)" />
-			</svg>
-		</div>
-                        </div>
-                        
-                        
+						
+						<div name="seating">
+							<h2>Select Seat</h2>
+							<div class="container">
+								<svg id="screen">
+									<g>
+										<rect id="screen_rect" class="col-12"/>
+										<text x="64" y="15" font-size="16">Screen</text>
+									</g>
+								</svg>
+								<br>
+								<svg>
+									<rect id="R1C1" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R1C2" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R1C3" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R1C4" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R1C5" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R1C6" class="available" onclick="selected(this.id)" />
+								</svg>
+								<br>
+								<svg>
+									<rect id="R2C1" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R2C2" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R2C3" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R2C4" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R2C5" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R2C6" class="available" onclick="selected(this.id)" />
+								</svg>
+								<br>
+								<svg>
+									<rect id="R3C1" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R3C2" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R3C3" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R3C4" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R3C5" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R3C6" class="available" onclick="selected(this.id)" />
+								</svg>
+								<br>
+								<svg>
+									<rect id="R4C1" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R4C2" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R4C3" class="available" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R4C4" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R4C5" class="unavailable" onclick="selected(this.id)" />
+								</svg>
+								<svg>
+									<rect id="R4C6" class="available" onclick="selected(this.id)" />
+								</svg>
+							</div>
+						</div>
+						
+						
 						<br><br>
 						<input type="submit" value="Submit Order" id="myApply" onclick="confirm('Your order is not successfully. Try Again?')"><br><br>
 					</form>
