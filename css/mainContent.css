@@ -5,16 +5,16 @@
 * @Last Modified time: 2015-09-25 13:34:43
 */
 img {
-	display: block;
-	max-width: 90%;
-	height: auto;
-	margin: auto;
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
 }
 
 .movie_container {
-	margin-right: -15px;
-	margin-left: -15px;
-	display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -34,4 +34,40 @@ img {
 #rating{
     display: block;
     margin:auto;
+}
+.synopsis{
+    font-family: Palatino Linotype;
+    padding: 20px;
+}
+table{
+    font-family: Palatino Linotype;
+    padding: 20px;
+}
+td:nth-of-type(odd){
+    color: #006666;
+}
+.detail_title{
+    color:#CC3300;
+    padding-left: 30px;
+}
+.detail_left_col{
+    margin-right: 30px;
+}
+.detail_poster{
+    padding-top: 20px;
+}
+#moviename{
+font-family:  "Arial Black", Gadget, sans-serif;
+}
+.rating{
+    height: 40px;
+    width: auto;
+}
+.rating_container{
+    display: inline-flex;
+}
+.rating_num{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
