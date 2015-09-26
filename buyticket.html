@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/global.css">
@@ -216,3 +217,227 @@
 	
 	<script type="text/javascript" src="js/seats.js"></script>
 </html>
+=======
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/mainContent.css">
+        <link rel="stylesheet" type="text/css" href="css/buyticket.css">
+    </head>
+    <body>
+        <header class="container">
+            <nav>
+                <ul>
+                    <li><a href="cinema.html">Cinemas</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div class="" id="breadcrumb_bar">
+                <p align="right">
+                    <a class="breadcrumb" href="movies.html">All Movies</a> 
+                    > 
+                    <a class="breadcrumb" href="#">Sci-Fi </a> 
+                    > 
+                    <a class="breadcrumb" href="moviedetail.html">Avengers</a>
+                    > 
+                    <a class="breadcrumb" href="buyticket.html">Booking</a>
+                </p>
+            </div>
+        </header>
+
+        <div class="container" id="main">
+            <div class="movie_container">
+
+                <div class="col-3">
+                    <div class="canvas buy_left_col">
+                        <img class="buy_poster" src="img/avengers.jpg" alt="Movie1">
+                        <h2 align="center" id="moviename">Avengers</h2>
+                    </div>
+                </div>
+
+
+                <div class="col-9">
+
+
+                    <div class="col-12 canvas">
+                        <h2 class="detail_title">Details</h2>
+                        <table>
+                            <tr>
+                                <td>Cast:</td>
+                                <td>Ed Skrein, Ray Stevenson, Loan Chabanol, Radivoje Bukvic, Gabriella Wright, Anatole Taubman, Tatiana Pajkovic</td>
+                            </tr>
+                            <tr>
+                                <td>Director:</td>
+                                <td>Terry Jones</td>
+                            </tr>
+                            <tr>
+                                <td>Genre:</td>
+                                <td>Comedy</td>
+                            </tr>
+                            <tr>
+                                <td>Release:</td>
+                                <td>03-09-2015</td>
+                            </tr>
+                            <tr>
+                                <td>Running Time:</td>
+                                <td>86 minutes</td>
+                            </tr>
+                            <tr>
+                                <td>Distributor:</td>
+                                <td>SB</td>
+                            </tr>
+                            <tr>
+                                <td>Language:</td>
+                                <td>English(Sub: Nil)</td>
+                            </tr>
+
+                        </table>
+                    </div>	
+
+                    <div class="col-12 canvas">
+                        <h2 class="detail_title">Booking Details: Customer Information: </h2>
+                        <form id="booking_form">
+                            <label>*Name: </label>
+                            <input type="text" name="name" id="name"><br><br>
+
+                            <label>*E-mail: </label>
+                            <input type="email" name="Email" id="Email"><br><br>
+                            <label>*Number of Tickets: </label>
+                            <input type="number" name="numOfTick" id="numOfTick" min="1" max="10"><br><br>
+                            <label>*Cinema: </label>
+                            <select size="1" name="cinema">
+                                <option>Select a cinema</option>
+                                <option value="LWN">LWN Cinema</option>
+                                <option value="Slin">Slin Cinema</option>
+                                <option value="EEE">EEE Cinema</option>
+                            </select><br><br>
+                            <label>*Date: </label>
+                            <select size="1" name="date">
+                                <option>Select a date</option>
+                                <option value="1">Date1</option>
+                                <option value="2">Date2</option>
+                                <option value="3">Date3</option>
+                                <option value="4">Date4</option>
+                                <option value="5">Date5</option>
+                            </select><br><br>
+                            <label>*Time: </label>
+                            <select size="1" name="date">
+                                <option>Select a time</option>
+                                <option value="1">time1</option>
+                                <option value="2">time2</option>
+                                <option value="3">time3</option>
+                                <option value="4">time4</option>
+                                <option value="5">time5</option>
+                            </select><br><br>
+
+                            <div name="seating">
+                                <h2 class="detail_title">Select Seat</h2>
+                                <div class="container">
+                                    <svg>
+                                        <rect id="R1C1" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R1C2" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R1C3" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R1C4" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R1C5" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R1C6" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <br>
+                                    <svg>
+                                        <rect id="R2C1" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R2C2" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R2C3" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R2C4" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R2C5" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R2C6" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <br>
+                                    <svg>
+                                        <rect id="R3C1" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R3C2" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R3C3" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R3C4" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R3C5" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R3C6" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <br>
+                                    <svg>
+                                        <rect id="R4C1" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R4C2" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R4C3" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R4C4" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R4C5" class="unavailable" onclick="selected(this.id)" />
+                                    </svg>
+                                    <svg>
+                                        <rect id="R4C6" class="available" onclick="selected(this.id)" />
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                            <br><br>
+                            <input type="submit" value="Submit Order" id="myApply" onclick="confirm('Your order is not successfully. Try Again?')"><br><br>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="container">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+
+            <br>
+            <p>
+                <i>All rights reserved by Lin Shicong&copy<i>
+                    </p>
+
+                    </footer>
+            </body>
+
+        <script type="text/javascript" src="js/seats.js"></script>
+        </html>
+>>>>>>> b91a189c0602f2d2b2c6f4e0b2980240c457ca84

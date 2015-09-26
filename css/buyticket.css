@@ -34,6 +34,7 @@ rect.available:hover {
 	fill: #33CC33;
 }
 
+<<<<<<< HEAD
 rect.booked:hover {
 	fill: #FF6300;
 }
@@ -50,4 +51,16 @@ rect.unavailable:hover {
 #screen_rect {
 	height: 20px;
 	fill: orange;
+=======
+/* styling for the canvas*/
+#booking_form{
+    padding: 20px;
+}
+
+.buy_left_col{
+    margin-right: 30px;
+}
+.buy_poster{
+    padding-top: 20px;
+>>>>>>> b91a189c0602f2d2b2c6f4e0b2980240c457ca84
 }
