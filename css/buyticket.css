@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-26 12:52:56
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-26 14:31:53
+* @Last Modified time: 2015-09-26 14:34:28
 */
 svg {
 	width: 25px;
@@ -34,7 +34,7 @@ rect.available:hover {
 	fill: #33CC33;
 }
 
-<<<<<<< HEAD
+
 rect.booked:hover {
 	fill: #FF6300;
 }
@@ -51,7 +51,7 @@ rect.unavailable:hover {
 #screen_rect {
 	height: 20px;
 	fill: orange;
-=======
+}
 /* styling for the canvas*/
 #booking_form{
     padding: 20px;
