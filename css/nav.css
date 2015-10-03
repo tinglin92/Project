@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-01 15:43:01
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-10-01 19:04:08
+* @Last Modified time: 2015-10-03 14:58:01
 */
 
 
@@ -12,6 +12,8 @@ nav {
 	border-radius: 3px;
     background-color: white;
 	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
 }
 
 #logo {

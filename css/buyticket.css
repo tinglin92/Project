@@ -2,15 +2,12 @@
 * @Author: Chenyu
 * @Date:   2015-09-26 12:52:56
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-10-03 14:15:41
+* @Last Modified time: 2015-10-03 14:53:12
 */
 
-.style-1 input[type="text"] {
+input[type="text"], input[type="email"] {
   padding: 10px;
-  border: solid 1px gainsboro;
-  -webkit-transition: box-shadow 0.3s, border 0.3s;
-  -moz-transition: box-shadow 0.3s, border 0.3s;
-  -o-transition: box-shadow 0.3s, border 0.3s;
+  border: solid 3px gainsboro;
   transition: box-shadow 0.3s, border 0.3s;
 }
 
@@ -19,6 +16,17 @@ input, select {
 	height: 100%;
 	margin: 0;
 	max-width: 90%;
+}
+
+select {
+	height: 34px;
+	width: 425px;
+	border: 3px solid gainsboro;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	-webkit-appearance: none;
+
 }
 
 label {
@@ -32,12 +40,13 @@ label {
 #seat-picker {
 	padding-left: 0px;
     padding-right: 0px;
-    width: 170px;
+    width: 180px;
 }
 
 svg {
 	width: 25px;
 	height: 25px;
+
 }
 
 rect {
@@ -123,5 +132,5 @@ rect.unavailable:hover {
     margin-right: 30px;
 }
 .buy_poster{
-    padding-top: 20px;
+    padding: 8px;
 }
