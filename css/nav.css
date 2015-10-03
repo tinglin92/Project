@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-01 15:43:01
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-25 13:57:05
+* @Last Modified time: 2015-10-01 19:04:08
 */
 
 
@@ -16,6 +16,7 @@ nav {
 
 #logo {
     margin-left: 10px;
+    height: 100%;
 }
 
 .glyphicon {
