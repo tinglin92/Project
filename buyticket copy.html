@@ -7,87 +7,25 @@
         <link rel="stylesheet" type="text/css" href="css/footer.css">
         <link rel="stylesheet" type="text/css" href="css/mainContent.css">
         <link rel="stylesheet" type="text/css" href="css/buyticket.css">
+
+        <style>
+            
+
+        </style>
     </head>
     <body>
-        <header class="container">
-            <nav>
-                <ul>
-                    <li><a href="cinema.html">Cinemas</a></li>
-                    <li><a href="movies.html">Movies</a></li>
-                    <li><a href="index.html">Home</a></li>
-                </ul>
-            </nav>
-            <div class="" id="breadcrumb_bar">
-                <p align="right">
-                    <a class="breadcrumb" href="movies.html">All Movies</a> 
-                    > 
-                    <a class="breadcrumb" href="#">Sci-Fi </a> 
-                    > 
-                    <a class="breadcrumb" href="moviedetail.html">Avengers</a>
-                    > 
-                    <a class="breadcrumb" href="buyticket.html">Booking</a>
-                </p>
-            </div>
-        </header>
 
-        <div class="container" id="main">
-            <div class="movie_container">
-
-                <div class="col-3">
-                    <div class="canvas buy_left_col">
-                        <img class="buy_poster" src="img/avengers.jpg" alt="Movie1">
-                        <h2 align="center" id="moviename">Avengers</h2>
-                    </div>
-                </div>
-
-
-                <div class="col-9">
-
-
-                    <div class="col-12 canvas">
-                        <h2 class="detail_title">Details</h2>
-                        <table>
-                            <tr>
-                                <td>Cast:</td>
-                                <td>Ed Skrein, Ray Stevenson, Loan Chabanol, Radivoje Bukvic, Gabriella Wright, Anatole Taubman, Tatiana Pajkovic</td>
-                            </tr>
-                            <tr>
-                                <td>Director:</td>
-                                <td>Terry Jones</td>
-                            </tr>
-                            <tr>
-                                <td>Genre:</td>
-                                <td>Comedy</td>
-                            </tr>
-                            <tr>
-                                <td>Release:</td>
-                                <td>03-09-2015</td>
-                            </tr>
-                            <tr>
-                                <td>Running Time:</td>
-                                <td>86 minutes</td>
-                            </tr>
-                            <tr>
-                                <td>Distributor:</td>
-                                <td>SB</td>
-                            </tr>
-                            <tr>
-                                <td>Language:</td>
-                                <td>English(Sub: Nil)</td>
-                            </tr>
-
-                        </table>
-                    </div>	
-
-                    <div class="col-12 canvas">
-                        <h2 class="detail_title">Booking Details: </h2>
-                        <form id="booking_form" class="container">
-                            <h2 class="detail_title">Customer information:</h2>
-                            <div id="booking-info">
+                    <div class="col-12">
+                        <h2 class="detail_title">Booking Details: Customer Information: </h2>
+                        <form id="booking_form">
+                        <div class="canvas col-6">
                             <label>*Name: </label>
-                            <input type="text" name="name" id="name" class="style-1"><br><br>
+                            <input type="text" name="name" id="name"><br><br>
+
                             <label>*E-mail: </label>
-                            <input type="email" name="Email" id="Email" class="style-1"><br><br>
+                            <input type="email" name="Email" id="Email"><br><br>
+                            <label>*Number of Tickets: </label>
+                            <input type="number" name="numOfTick" id="numOfTick" min="1" max="10"><br><br>
                             <label>*Cinema: </label>
                             <select size="1" name="cinema">
                                 <option>Select a cinema</option>
@@ -112,11 +50,12 @@
                                 <option value="3">time3</option>
                                 <option value="4">time4</option>
                                 <option value="5">time5</option>
-                            </select><br><br>
-                            </div>
+                            </select>
+                        </div>
+                            
 
 
-                            <div name="seating">
+                            <div name="seating" class="canvas col-3">
                                 <h2 class="detail_title">Select Seat</h2>
                                <div class="container">
 								<svg id="screen">

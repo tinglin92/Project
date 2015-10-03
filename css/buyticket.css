@@ -2,8 +2,32 @@
 * @Author: Chenyu
 * @Date:   2015-09-26 12:52:56
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-26 14:40:10
+* @Last Modified time: 2015-10-03 11:54:12
 */
+
+.style-1 input[type="text"] {
+  padding: 10px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input, select {
+	width: 400px;
+	height: 100%;
+	margin: 0;
+}
+
+label {
+	float: left;
+	width: 10em;
+	font-size: 1.2em;
+	margin-right: 1em;
+	text-align: right;
+}
+
 svg {
 	width: 25px;
 	height: 25px;
