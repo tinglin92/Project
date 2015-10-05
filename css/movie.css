@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-14 11:46:34
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-18 14:08:49
+* @Last Modified time: 2015-10-05 23:34:36
 */
 img {
 	display: block;
@@ -12,8 +12,8 @@ img {
 }
 
 .poster {
-	height: 400px;
 	width: 270px;
+	height: auto;
 }
 
 .movie_container {
