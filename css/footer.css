@@ -2,7 +2,7 @@
 * @Author: Chenyu
 * @Date:   2015-09-05 11:47:27
 * @Last Modified by:   Chenyu
-* @Last Modified time: 2015-09-25 01:22:50
+* @Last Modified time: 2015-10-06 11:27:36
 */
 footer {
 	text-align: center;
@@ -21,4 +21,19 @@ footer > ul > li {
 
 footer > p {
 	margin-top: 0px;
+	color: #FF7575;
+	text-align: center;
+}
+
+footer a:link, footer a:visited {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    color: #FF7575;
+}
+
+ footer a:hover, footer a:active {
+    color: #CC5E5E;
 }
